@@ -1,1 +1,19 @@
-Day1 : Data Types
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+       Scanner scan=new Scanner(System.in);
+       int i=scan.nextInt();
+       double d=scan.nextDouble();
+       scan.nextLine();
+       String r="HackerRank";
+       String s=scan.nextLine();
+    //    int a=(int)(i+d);
+       System.out.println(i+4);
+       System.out.println(d+4);
+       System.out.println(r+" "+s);
+       scan.close();
+    }
+}
