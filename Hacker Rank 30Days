@@ -1,3 +1,4 @@
+==============DAY 1: DATA TYPE===============
 import java.io.*;
 import java.util.*;
 
@@ -17,3 +18,4 @@ public class Solution {
        scan.close();
     }
 }
+=====================DAY2: OPERATORS==============
