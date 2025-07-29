@@ -1,1 +1,145 @@
+package z_based_questions;
+
+import java.util.Scanner;
+
+public class z_easy_array {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int n = scan.nextInt();
+        int arr[] = new int[n];
+        for (int i = 0; i < n; i++) {
+            arr[i] = scan.nextInt();
+        }
+
+        /// ////////////Print all elements in an array////////////
+//        for (int i = 0; i < n; i++) {
+//            System.out.print(arr[i]+" ");
+//        }
+
+        ///  /////////////////////Find the sum of array elements//////////////////
+//        int count=0;
+//        for(int i=0;i<n;i++){
+//            count+=arr[i];
+//        }
+//        System.out.println(count);
+        /// //////////////////////////Find the largest number in an array///////
+//        int max = Integer.MIN_VALUE;
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] > max) {
+//                max = arr[i];
+//            }
+//        } System.out.print(max);
+        /// //////////////////////////Find the smallest number in an array///////
+//        int min=Integer.MAX_VALUE;
+//        for(int i=0;i<n;i++){
+//            if(arr[i]<min){
+//                min=arr[i];
+//            }
+//        }
+//        System.out.println(min);
+        /// //////////////////////////Count even and odd numbers///////////////
+//        for(int i=0;i<n;i++){
+//            if(arr[i]%2==0){
+//                System.out.println("Even");
+//            }
+//            else{
+//                System.out.println("ODD");
+//            }
+//        }
+        /// /////////////////Find the second largest element/////////////////
+        int fir=arr[0];
+        int sec=Integer.MIN_VALUE;
+        for(int i=0;i<n;i++) {
+            if (arr[i] > fir) {
+                fir = arr[i];
+            }
+        }
+        for(int i=0;i<n;i++) {
+            if (arr[i] > sec && arr[i] != fir) {
+                sec = arr[i];
+            }
+        }
+        System.out.print(sec);
+        /// /////////////////Find the second smallest element/////////////////
+//        int fir=Integer.MAX_VALUE;
+//        int sec=Integer.MAX_VALUE;
+//        for(int i=0;i<n;i++){
+//            if(arr[i]<fir&&arr[i]<sec){
+//                sec=fir;
+//                fir=arr[i];
+//            }
+//            else if(arr[i]<fir){
+//                sec=arr[i];
+//            }
+//        }
+//        System.out.println(sec);
+
+        /// ////////////////Check if a number is present in the array/////////////
+//        int tar=scan.nextInt();
+//        int pos=0;
+//        for(int i=0;i<n;i++){
+//            if(arr[i]==tar){
+//                pos=i;
+//            }
+//        }
+//        System.out.println(pos);
+        ///  //////////////////Reverse an array//////////
+//        for(int i=arr.length-1;i>=0;i--){
+//            System.out.print(arr[i]+" ");
+//            }
+        /// //////////////////////Count how many times a number appears//////////
+//        int val=5;
+//        int count=0;
+//        for(int i=0;i<n;i++){
+//            if(arr[i]==val){
+//                count++;
+//            }
+//        }
+//        System.out.println(count);
+        /// ////////////////remove duplicate elements///////////////////////
+//        HashSet<Integer> dup=new HashSet<>();
+//        for(int num:arr){
+//            if(!dup.contains(num)){
+//                dup.add(num);
+//            }
+//        }
+//        System.out.println(dup);
+        /// ////////////////Find duplicate elements///////////////////////
+//        HashSet<Integer> dup = new HashSet<>();
+//        for (int i = 0; i < arr.length; i++) {
+//            for (int j = i + 1; j < arr.length; j++) {
+//                if (arr[i] == arr[j] && !dup.contains(arr[i])) {
+//                    System.out.print(arr[i]+" ");
+//                    dup.add(arr[i]);
+//                    break;
+//                }
+//            }
+//        }
+        /// /////////////Check if the array is a palindrome/////////////////
+//int left=0;
+//int right=arr.length-1;
+//boolean ans=true;
+//while(left<right) {
+//    if (arr[left] != arr[right]) {
+//        ans = false;
+//    }
+//    left++;
+//    right--;
+//}
+//if(ans==true){
+//    System.out.println("Palindrome");
+//}
+//else{
+//    System.out.println("Not palindrome");
+//}
+//////////////////////////Find the average of array elements//////////
+//        int sum=0;
+//        for(int i=0;i<n;i++){
+//            sum+=arr[i];
+//        }
+//        double ave=sum/ arr.length;
+//        System.out.println(ave);
+        /////////////////////////////////////////////////////////////////
+    }
+}
 
