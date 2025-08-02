@@ -139,7 +139,31 @@ public class z_easy_array {
 //        }
 //        double ave=sum/ arr.length;
 //        System.out.println(ave);
-        /////////////////////////////////////////////////////////////////
-    }
+//////////////////////////Rotate first element in array //////////
+for(int i=1;i<n;i++){
+System.out.print(arr[i]);
 }
+System.out.print(arr[0]);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
