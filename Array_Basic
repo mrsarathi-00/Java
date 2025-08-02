@@ -145,7 +145,30 @@ System.out.print(arr[i]);
 }
 System.out.print(arr[0]);
 }
-
+////////////////////////Left Rotate the array///////////////////////
+//        int rot=scan.nextInt();
+//        rot=rot%n;
+//        int arr1[]=new int[n];
+//        int index=0;
+//        for(int i=rot;i<n;i++){
+//            arr1[index++]=arr[i];
+//        }
+//        for(int i=0;i<rot;i++){
+//            arr1[index++]=arr[i];
+//        }
+//        System.out.println(Arrays.toString(arr1));
+        ////////////////////////Right Rotate the array///////////////////////
+//        int rot=scan.nextInt();
+//        rot=rot%n;
+//        int arr1[]=new int[n];
+//        int index=0;
+//        for(int i= arr.length-rot;i<n;i++){
+//            arr1[index++]=arr[i];
+//        }
+//        for(int i=0;i<arr.length-rot;i++){
+//            arr1[index++]=arr[i];
+//        }
+//        System.out.println(Arrays.toString(arr1));
 
 
 
